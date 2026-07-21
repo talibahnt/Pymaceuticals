@@ -65,16 +65,16 @@ Pymaceuticals/
 ## Prerequisites
 Make sure you have Python installed along with the necessary data science tools:
 
-# Bash
+## Bash
 pip install pandas matplotlib scipy notebook
 Running the Analysis
 Clone the repository:
 
-# Bash
+## Bash
 git clone https://github.com/talibahnt/Pymaceuticals.git
 cd Pymaceuticals
 Launch Jupyter Notebook:
 
-# Bash
+## Bash
 jupyter notebook Pymaceuticals/pymaceuticals_starter.ipynb
 Run all cells sequentially to reproduce tables, statistical models, and visualizations.
