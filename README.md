@@ -19,13 +19,13 @@ Calculate correlation and regression.
 
 Submit your final analysis.
 
- ## Pymaceuticals: Anti-Cancer Drug Clinical Study Analysis
+ # Pymaceuticals: Anti-Cancer Drug Clinical Study Analysis
 📌 Executive Summary
 Pymaceuticals, Inc. recently completed a 45-day animal study evaluating potential treatments for Squamous Cell Carcinoma (SCC), a common form of skin cancer. In this trial, 249 mice diagnosed with SCC tumors received treatment across various drug regimens. Tumor progression was monitored and recorded over time.
 
 This project delivers a comprehensive technical analysis evaluating the performance of Pymaceuticals’ flagship drug candidate, Capomulin, relative to rival treatment regimens (including Ramicane, Infubinol, and Ceftamin).
 
-## 🛠️ Key Analytical TasksData Preparation & Cleaning:
+# 🛠️ Key Analytical TasksData Preparation & Cleaning:
 Combined mouse metadata and study results into a unified dataset.
 Identified and removed duplicate records (e.g., duplicate timepoints for mouse ID g989).
 Cleaned the dataset down to 248 unique, valid subject mice.
@@ -49,7 +49,7 @@ Top Performers: Capomulin and Ramicane demonstrated significant effectiveness in
 Outlier Analysis: Across the top four regimens, only Infubinol contained a single statistically significant outlier (Mouse ID c451), while Capomulin and Ramicane exhibited highly consistent, reproducible outcomes.
 Weight vs. Tumor Volume Correlation: A strong positive correlation ($r \approx 0.84$) exists between mouse weight and average tumor volume within the Capomulin regimen. Higher body mass directly corresponds to larger average tumor volumes, suggesting dosage adjustments by weight may be worth investigating in future trials.
 
-## 📂 Repository Structure
+# 📂 Repository Structure
 Plaintext
 Pymaceuticals/
 │
@@ -61,8 +61,8 @@ Pymaceuticals/
 │
 ├── README.md                       # Technical documentation & project summary
 └── .gitignore                      # Standard python/Jupyter gitignore rules
-## 🚀 Getting Started
-# Prerequisites
+# 🚀 Getting Started
+## Prerequisites
 Make sure you have Python installed along with the necessary data science tools:
 
 # Bash
